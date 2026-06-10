@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IniReader.cs" />
+    <Compile Include="..\src\IniReader.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,8 +56,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScaleHandler.cs" />
-    <Compile Include="TcpScaleServer.cs" />
+    <Compile Include="..\src\ScaleHandler.cs" />
+    <Compile Include="..\src\TcpScaleServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
